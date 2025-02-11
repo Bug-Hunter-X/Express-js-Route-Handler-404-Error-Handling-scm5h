@@ -1,0 +1,2 @@
+# Express.js Route Handler 404 Error Handling Bug
+This repository demonstrates a common bug in Express.js route handlers where the response is sent even if a 404 error (resource not found) should be returned.  Improper error handling can lead to unexpected behavior in the application. The solution demonstrates the correct way to immediately return the 404 response.
